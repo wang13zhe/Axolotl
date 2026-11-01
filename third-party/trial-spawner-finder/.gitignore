@@ -1,0 +1,33 @@
+.gradle/
+build/
+bin/
+run/
+.runtime/
+.bootstrap-cache/
+results.csv
+results-*.csv
+results-*.txt
+*.log
+.idea/
+.vscode/
+*.iml
+hs_err_pid*
+replay_pid*
+.DS_Store
+Thumbs.db
+release/*.zip
+release/**/*.jar
+release/**/.runtime/
+release/**/results.csv
+release/**/results-*.csv
+release/**/results-*.txt
+docs/
+# 发布产物（make-dist.bat 可重新生成）
+dist/
+dist.zip
+query-*.csv
+query-*.txt
+# 运行期产物
+checkpoints/
+trial-spawner-checkpoints/
+logs/
