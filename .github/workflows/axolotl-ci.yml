@@ -210,6 +210,18 @@ jobs:
           cache: pnpm
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      # The Gradle wrapper downloads a ~130 MB distribution on a cold cache.
+      # Without this cache every run re-downloads it, and a short network stall
+      # fails the whole desktop pipeline.
+      - name: Cache Gradle wrapper distribution
+        uses: actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57 # v4.2.0
+        with:
+          path: |
+            ~/.gradle/wrapper
+            ~/.gradle/caches
+          key: gradle-${{ runner.os }}-${{ hashFiles('packages/app-lib/java/gradle/wrapper/gradle-wrapper.properties') }}
+          restore-keys: |
+            gradle-${{ runner.os }}-
       - name: Prepare build resources
         run: node scripts/axolotl/prepare-build-resources.mjs
       - name: Test Java agent cache and offline behavior
