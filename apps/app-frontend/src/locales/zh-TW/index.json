@@ -15197,6 +15197,9 @@
   "app.settings.about.game.title": {
     "message": "合成六角恐龍"
   },
+  "app.settings.about.join-discord": {
+    "message": "加入 Discord"
+  },
   "app.settings.about.license-attribution": {
     "message": "授權條款與來源聲明"
   },
