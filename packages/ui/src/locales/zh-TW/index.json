@@ -588,7 +588,7 @@
     "defaultMessage": "更新 {count, plural, other {# 個專案}}"
   },
   "content.confirm-deletion.admonition-body": {
-    "defaultMessage": "刪除模組可能會對你的世界造成永久性影響，並在重新載入時導致內容遺失或發生非預期的問題。"
+    "defaultMessage": "刪除{contentType, select, mod {模組} resourcepack {資源包} shader {光影} datapack {資料包} other {內容}}可能會對你的世界造成永久性影響，並在重新載入時導致內容遺失或發生非預期的問題。"
   },
   "content.confirm-deletion.admonition-header": {
     "defaultMessage": "刪除警告"
@@ -3090,7 +3090,7 @@
     "defaultMessage": "大雜燴"
   },
   "tag.category.kitpvp": {
-    "defaultMessage": "Kit PvP"
+    "defaultMessage": "套裝 PvP"
   },
   "tag.category.library": {
     "defaultMessage": "程式庫"
@@ -3129,7 +3129,7 @@
     "defaultMessage": "小遊戲"
   },
   "tag.category.mmo": {
-    "defaultMessage": "MMO"
+    "defaultMessage": "大型多人線上遊戲（MMO）"
   },
   "tag.category.mobs": {
     "defaultMessage": "生物"
@@ -3471,10 +3471,10 @@
     "defaultMessage": "類型"
   },
   "files.row.parent-folder": {
-    "message": "Parent folder"
+    "message": "上層資料夾"
   },
   "omorphia.component.loading-indicator.label": {
-    "message": "Loading"
+    "message": "載入中"
   },
   "drop.confirm.title": {
     "message": "你想以什麼類型匯入？"
@@ -3591,7 +3591,7 @@
     "message": "確認"
   },
   "project.versions.filter.toggle-tooltip": {
-    "message": "Toggle filter for {filter}"
+    "message": "切換 {filter} 篩選條件"
   },
   "project.versions.platform.modloader.short": {
     "message": "ModLoader"
@@ -3735,67 +3735,67 @@
     "message": "未裝備"
   },
   "skin.preview.drag-to-rotate": {
-    "message": "Drag to rotate"
+    "message": "拖曳以旋轉"
   },
   "browse.sort.relevance": {
-    "message": "Relevance"
+    "message": "相關性"
   },
   "browse.sort.downloads": {
-    "message": "Downloads"
+    "message": "下載次數"
   },
   "browse.sort.followers": {
-    "message": "Followers"
+    "message": "追蹤者"
   },
   "browse.sort.date-published": {
-    "message": "Date published"
+    "message": "發布日期"
   },
   "browse.sort.date-updated": {
-    "message": "Date updated"
+    "message": "更新日期"
   },
   "browse.sort.verified-plays": {
-    "message": "Verified plays"
+    "message": "已驗證遊玩次數"
   },
   "browse.sort.players": {
-    "message": "Players"
+    "message": "玩家數"
   },
   "content.card.pending-manual-download": {
-    "message": "Manual download required"
+    "message": "需要手動下載"
   },
   "content.card.rollback-tooltip": {
     "defaultMessage": "回滾到 {fileName}"
   },
   "app.symlink-warning.write.header": {
-    "message": "Shared instance"
+    "message": "共用實例"
   },
   "app.symlink-warning.write.body": {
-    "message": "This instance is linked to "
+    "message": "此實例連結到「{path}」。變更也會影響原始檔案。"
   },
   "instances.updater-modal.search-compat": {
     "message": "尋找相容版本"
   },
   "files.delete-modal.bulk-header": {
-    "message": "Delete multiple items"
+    "message": "刪除多個項目"
   },
   "files.delete-modal.deleting-multiple": {
-    "message": "Deleting {count} items"
+    "message": "正在刪除 {count} 個項目"
   },
   "files.delete-modal.bulk-warning": {
-    "message": "The selected items will be permanently deleted. This action cannot be undone."
+    "message": "選取的項目將被永久刪除，此操作無法復原。"
   },
   "files.delete-modal.symlink-warning-header": {
-    "message": "Shared instance"
+    "message": "共用實例"
   },
   "files.delete-modal.symlink-warning-body": {
-    "message": "You are modifying files in a shared instance linked to "
+    "message": "你正在修改連結到「{path}」的共用實例中的檔案。變更會影響原始實例。"
   },
   "button.open-in-browser": {
-    "message": "Open in browser"
+    "message": "在瀏覽器中開啟"
   },
   "label.server-only": {
-    "message": "Server only"
+    "message": "僅伺服器"
   },
   "button.switch-to-version": {
-    "message": "Switch to version"
+    "message": "切換至此版本"
   },
   "project-type.schematic.category": {
     "message": "投影"
@@ -3807,19 +3807,19 @@
     "message": "{count, plural, one {投影} other {投影}}"
   },
   "search.filter_type.advanced.exclude_mod": {
-    "message": "Exclude mods"
+    "message": "排除模組"
   },
   "search.filter_type.advanced.exclude_plugin": {
-    "message": "Exclude plugins"
+    "message": "排除外掛"
   },
   "search.filter_type.advanced.exclude_datapack": {
-    "message": "Exclude data packs"
+    "message": "排除資料包"
   },
   "search.filter_type.advanced": {
-    "message": "Advanced"
+    "message": "進階"
   },
   "header.category.cf-extra": {
-    "message": "More CurseForge categories"
+    "message": "更多 CurseForge 分類"
   },
   "project.environment.tag.not-applicable": {
     "defaultMessage": "不適用"
@@ -4053,10 +4053,10 @@
     "defaultMessage": "遊戲版本"
   },
   "drop.confirm.not-this": {
-    "message": "作为其他内容导入"
+    "message": "作為其他內容匯入"
   },
   "app.drop.batch.scan.title": {
-    "message": "正在识别 {count, plural, one {# 个文件} other {# 个文件}}…"
+    "message": "正在辨識 {count, plural, one {# 個檔案} other {# 個檔案}}…"
   },
   "app.drop.batch.scan.subtitle": {
     "message": "已识别 {done} / {total}"
@@ -4207,5 +4207,698 @@
   },
   "content.page-layout.view-dependencies": {
     "defaultMessage": "檢視依賴關係"
+  },
+  "browse.clear-search": {
+    "defaultMessage": "清除搜尋"
+  },
+  "browse.no-results.heading": {
+    "defaultMessage": "這裡還是空的"
+  },
+  "browse.offline.heading": {
+    "defaultMessage": "網路未連線"
+  },
+  "browse.retry": {
+    "defaultMessage": "重試"
+  },
+  "browse.search.failed": {
+    "defaultMessage": "無法完成搜尋，請檢查網路或篩選條件後重試。"
+  },
+  "browse.select-all-button.label": {
+    "defaultMessage": "全選（{count}）"
+  },
+  "browse.select-all-button.selecting": {
+    "defaultMessage": "正在選取 {completed}/{total}"
+  },
+  "browse.sort.first-release": {
+    "defaultMessage": "首次發布時間"
+  },
+  "browse.sort.latest-release": {
+    "defaultMessage": "最近發布時間"
+  },
+  "browse.sort.project-created": {
+    "defaultMessage": "專案建立時間"
+  },
+  "browse.sort.project-modified": {
+    "defaultMessage": "專案修改時間"
+  },
+  "browse.sort.project-published": {
+    "defaultMessage": "專案首次公開時間"
+  },
+  "button.collapse": {
+    "defaultMessage": "收合"
+  },
+  "button.confirm": {
+    "defaultMessage": "確認"
+  },
+  "button.dismiss-notification": {
+    "defaultMessage": "關閉通知"
+  },
+  "button.expand": {
+    "defaultMessage": "展開"
+  },
+  "color-picker.dialog-label": {
+    "defaultMessage": "檢色器"
+  },
+  "color-picker.dye-presets": {
+    "defaultMessage": "染料顏色"
+  },
+  "color-picker.dye.black": {
+    "defaultMessage": "黑色"
+  },
+  "color-picker.dye.blue": {
+    "defaultMessage": "藍色"
+  },
+  "color-picker.dye.brown": {
+    "defaultMessage": "棕色"
+  },
+  "color-picker.dye.cyan": {
+    "defaultMessage": "青色"
+  },
+  "color-picker.dye.gray": {
+    "defaultMessage": "灰色"
+  },
+  "color-picker.dye.green": {
+    "defaultMessage": "綠色"
+  },
+  "color-picker.dye.light-blue": {
+    "defaultMessage": "淡藍色"
+  },
+  "color-picker.dye.light-gray": {
+    "defaultMessage": "淡灰色"
+  },
+  "color-picker.dye.lime": {
+    "defaultMessage": "檸檬綠"
+  },
+  "color-picker.dye.magenta": {
+    "defaultMessage": "洋紅色"
+  },
+  "color-picker.dye.orange": {
+    "defaultMessage": "橙色"
+  },
+  "color-picker.dye.pink": {
+    "defaultMessage": "粉紅色"
+  },
+  "color-picker.dye.purple": {
+    "defaultMessage": "紫色"
+  },
+  "color-picker.dye.red": {
+    "defaultMessage": "紅色"
+  },
+  "color-picker.dye.white": {
+    "defaultMessage": "白色"
+  },
+  "color-picker.dye.yellow": {
+    "defaultMessage": "黃色"
+  },
+  "color-picker.hex": {
+    "defaultMessage": "十六進位顏色"
+  },
+  "color-picker.hue": {
+    "defaultMessage": "色相"
+  },
+  "color-picker.open": {
+    "defaultMessage": "選擇顏色"
+  },
+  "color-picker.recent-colors": {
+    "defaultMessage": "最近使用"
+  },
+  "color-picker.saturation-brightness": {
+    "defaultMessage": "飽和度與亮度"
+  },
+  "color-picker.saturation-brightness.value": {
+    "defaultMessage": "飽和度 {saturation}%，亮度 {brightness}%"
+  },
+  "console.command.placeholder": {
+    "defaultMessage": "傳送指令"
+  },
+  "console.crash.finding.connector-incompatible-fabric-mods.action": {
+    "defaultMessage": "移除或替換 Connector 錯誤中指出的 Fabric 模組，改用相容 Forge 的替代版本。"
+  },
+  "console.crash.finding.connector-incompatible-fabric-mods.title": {
+    "defaultMessage": "Sinytra Connector 發現不相容的 Fabric 模組"
+  },
+  "console.crash.finding.disk-space.action": {
+    "defaultMessage": "請釋放實例所在磁碟的空間，然後重試啟動。"
+  },
+  "console.crash.finding.disk-space.title": {
+    "defaultMessage": "磁碟空間不足"
+  },
+  "console.crash.finding.file-in-use.action": {
+    "defaultMessage": "關閉證據中指出的程式，包括其他啟動器、備份工具或防毒掃描，然後重試。"
+  },
+  "console.crash.finding.file-in-use.title": {
+    "defaultMessage": "另一個處理程序正在使用必要檔案"
+  },
+  "console.crash.finding.known-signature.action": {
+    "defaultMessage": "修改實例前，請查看證據以及相關的 Minecraft、載入器、Java、圖形或模組版本。"
+  },
+  "console.crash.finding.known-signature.title": {
+    "defaultMessage": "偵測到已知的當機特徵"
+  },
+  "console.crash.finding.missing-embeddium.action": {
+    "defaultMessage": "請安裝 Oculus 針對此 Minecraft 和 Forge 版本所需的 Embeddium 版本。"
+  },
+  "console.crash.finding.missing-embeddium.title": {
+    "defaultMessage": "Oculus 需要 Embeddium"
+  },
+  "console.crash.finding.missing-indium.action": {
+    "defaultMessage": "請安裝與已安裝的 Fabric Loader 和 Sodium 版本相容的 Indium 版本。"
+  },
+  "console.crash.finding.missing-indium.title": {
+    "defaultMessage": "某個模組需要 Indium"
+  },
+  "console.crash.mod-change": {
+    "defaultMessage": "{kind}：{filename}"
+  },
+  "console.crash.mod-change.added": {
+    "defaultMessage": "新增"
+  },
+  "console.crash.mod-change.modified": {
+    "defaultMessage": "已修改"
+  },
+  "console.crash.mod-change.removed": {
+    "defaultMessage": "已移除"
+  },
+  "console.crash.mod-changes.summary": {
+    "defaultMessage": "新增 {added} 項，移除 {removed} 項，修改 {modified} 項"
+  },
+  "console.crash.mod-changes.title": {
+    "defaultMessage": "上次成功啟動後模組檔案發生了變化"
+  },
+  "console.crash.windows-events.title": {
+    "defaultMessage": "相關 Windows 應用程式事件"
+  },
+  "console.log-viewport.scroll-to-bottom": {
+    "defaultMessage": "捲動至底部"
+  },
+  "console.log.export": {
+    "defaultMessage": "儲存完整記錄檔"
+  },
+  "content.actions.update-all": {
+    "defaultMessage": "全部更新"
+  },
+  "content.confirm-deletion.failed": {
+    "defaultMessage": "無法刪除所選內容，請重試。"
+  },
+  "content.dependency-warning.delete-failed": {
+    "defaultMessage": "無法刪除所選內容及其相依項目，請重試。"
+  },
+  "content.metadata-filter.installed-source": {
+    "defaultMessage": "安裝來源平台"
+  },
+  "content.metadata-filter.ownership": {
+    "defaultMessage": "內容歸屬"
+  },
+  "content.metadata-filter.ownership.local-discovered": {
+    "defaultMessage": "本機發現"
+  },
+  "content.metadata-filter.ownership.pack-managed": {
+    "defaultMessage": "整合包管理"
+  },
+  "content.metadata-filter.ownership.user-added": {
+    "defaultMessage": "使用者新增"
+  },
+  "content.metadata-filter.source.mcarchive": {
+    "defaultMessage": "MCArchive"
+  },
+  "content.metadata-filter.source.modrinth": {
+    "defaultMessage": "Modrinth"
+  },
+  "content.metadata-filter.source.planet-minecraft": {
+    "defaultMessage": "Planet Minecraft"
+  },
+  "content.page-layout.dependency-disable-failed": {
+    "defaultMessage": "無法停用相依於這些內容的項目。請重試以完成刪除。"
+  },
+  "content.page-layout.duplicate-status": {
+    "defaultMessage": "{visible} 項相符 · 全部副本：{updates} 項可更新 · {disabled} 項已停用 · {missing} 項缺失 · {installing} 項處理中"
+  },
+  "content.page-layout.scroll-to-top": {
+    "defaultMessage": "回到頂部"
+  },
+  "content.page-layout.update-duplicate-group": {
+    "defaultMessage": "檢視全部 {count, number} 個副本的更新"
+  },
+  "creation-flow.modal.custom-setup.game-dir.label": {
+    "defaultMessage": "遊戲目錄"
+  },
+  "creation-flow.modal.custom-setup.game-dir.managed": {
+    "defaultMessage": "Axolotl 目錄"
+  },
+  "image-viewer.editor.tool.rectangle": {
+    "defaultMessage": "矩形"
+  },
+  "image-viewer.editor.tool.select": {
+    "defaultMessage": "選取"
+  },
+  "image-viewer.editor.tool.text": {
+    "defaultMessage": "文字"
+  },
+  "image-viewer.editor.undo": {
+    "defaultMessage": "復原"
+  },
+  "image-viewer.editor.width": {
+    "defaultMessage": "寬度"
+  },
+  "image-viewer.editor.zoom-fit": {
+    "defaultMessage": "符合視窗"
+  },
+  "image-viewer.editor.zoom-fit-workspace": {
+    "defaultMessage": "符合工作區"
+  },
+  "image-viewer.editor.zoom-in": {
+    "defaultMessage": "放大"
+  },
+  "image-viewer.editor.zoom-out": {
+    "defaultMessage": "縮小"
+  },
+  "image-viewer.metadata": {
+    "defaultMessage": "{size} · {width} × {height} 像素"
+  },
+  "image-viewer.next": {
+    "defaultMessage": "下一張圖片"
+  },
+  "image-viewer.previous": {
+    "defaultMessage": "上一張圖片"
+  },
+  "instance.files.studio.editor-loading": {
+    "defaultMessage": "正在載入編輯器…"
+  },
+  "instances.updater-modal.loading-more-versions": {
+    "defaultMessage": "正在載入更多版本……"
+  },
+  "modal.confirm-action.failed": {
+    "defaultMessage": "無法完成此操作，請重試。"
+  },
+  "modal.confirm.confirmation-placeholder": {
+    "defaultMessage": "在此輸入……"
+  },
+  "modal.confirm.confirmation-prompt": {
+    "defaultMessage": "要確認繼續，請在下方輸入 <confirmation-text>{confirmationText}</confirmation-text>："
+  },
+  "modal.confirm.no-title": {
+    "defaultMessage": "未定義標題"
+  },
+  "modal.confirm.proceed": {
+    "defaultMessage": "繼續"
+  },
+  "modal.install-to-play.admonition-body": {
+    "defaultMessage": "此伺服器需要模組內容才能遊玩。接受後將從 Modrinth 安裝所需檔案。"
+  },
+  "modal.install-to-play.admonition-header": {
+    "defaultMessage": "共用伺服器實例"
+  },
+  "modal.install-to-play.shared-by": {
+    "defaultMessage": "<name>{name}</name> 今天與你共用此實例。"
+  },
+  "modal.install-to-play.shared-instance-label": {
+    "defaultMessage": "共用實例"
+  },
+  "modal.install-to-play.title": {
+    "defaultMessage": "安裝後遊玩"
+  },
+  "notification.error-announcement.repeated": {
+    "defaultMessage": "{title}。{text}（第 {count} 次）"
+  },
+  "notification.error-announcement.text-only": {
+    "defaultMessage": "{text}"
+  },
+  "notification.error-announcement.title-only": {
+    "defaultMessage": "{title}"
+  },
+  "notification.error-announcement.title-text": {
+    "defaultMessage": "{title}。{text}"
+  },
+  "notification.panel.copy": {
+    "defaultMessage": "複製到剪貼簿"
+  },
+  "notification.panel.copy-support": {
+    "defaultMessage": "複製錯誤詳細資訊以尋求支援"
+  },
+  "notification.panel.dismiss": {
+    "defaultMessage": "關閉"
+  },
+  "notification.panel.export-error-logs": {
+    "defaultMessage": "匯出錯誤記錄檔"
+  },
+  "pagination.go-to-page": {
+    "defaultMessage": "前往頁碼"
+  },
+  "pagination.go-to-page.placeholder": {
+    "defaultMessage": "頁碼"
+  },
+  "pagination.loading-page": {
+    "defaultMessage": "正在載入頁面……"
+  },
+  "project-card.date.created.tooltip": {
+    "defaultMessage": "專案建立於 {date}"
+  },
+  "project-card.date.first-release.tooltip": {
+    "defaultMessage": "首次發布於 {date}"
+  },
+  "project-card.date.project-modified.tooltip": {
+    "defaultMessage": "專案修改於 {date}"
+  },
+  "project-card.date.project-published.tooltip": {
+    "defaultMessage": "專案首次公開於 {date}"
+  },
+  "project-card.date.release-updated.tooltip": {
+    "defaultMessage": "最近發布於 {date}"
+  },
+  "project.versions.no-matching-versions": {
+    "defaultMessage": "沒有符合所選篩選條件的版本。"
+  },
+  "search.filter.dependency_type.embedded": {
+    "defaultMessage": "內建"
+  },
+  "search.filter.dependency_type.optional": {
+    "defaultMessage": "選用"
+  },
+  "search.filter.dependency_type.required": {
+    "defaultMessage": "必要"
+  },
+  "search.filter.dependent_project": {
+    "defaultMessage": "相依於：{project}"
+  },
+  "search.filter.dependent_project.search_placeholder": {
+    "defaultMessage": "搜尋專案……"
+  },
+  "search.filter.excluded_projects": {
+    "defaultMessage": "排除：{projects}"
+  },
+  "search.filter.included_content.remove_project.tooltip": {
+    "defaultMessage": "移除專案"
+  },
+  "search.filter.included_content.search_placeholder": {
+    "defaultMessage": "搜尋內容……"
+  },
+  "search.filter.included_projects": {
+    "defaultMessage": "包含：{projects}"
+  },
+  "search.filter_type.compatible_dependency_project_ids": {
+    "defaultMessage": "相依於"
+  },
+  "search.filter_type.included_content": {
+    "defaultMessage": "包含內容"
+  },
+  "ui.keybinding-modal.alt": {
+    "defaultMessage": "Alt"
+  },
+  "ui.keybinding-modal.cancel": {
+    "defaultMessage": "取消"
+  },
+  "ui.keybinding-modal.capture-hint": {
+    "defaultMessage": "接著按下你想讓這個快速鍵使用的按鍵。"
+  },
+  "ui.keybinding-modal.capture-title": {
+    "defaultMessage": "點擊此處開始錄製"
+  },
+  "ui.keybinding-modal.current": {
+    "defaultMessage": "目前快速鍵"
+  },
+  "ui.keybinding-modal.device-keyboard": {
+    "defaultMessage": "鍵盤"
+  },
+  "ui.keybinding-modal.device-mouse": {
+    "defaultMessage": "滑鼠"
+  },
+  "ui.keybinding-modal.group-digits": {
+    "defaultMessage": "數字鍵"
+  },
+  "ui.keybinding-modal.group-function": {
+    "defaultMessage": "功能鍵"
+  },
+  "ui.keybinding-modal.group-letters": {
+    "defaultMessage": "字母鍵"
+  },
+  "ui.keybinding-modal.group-mouse-buttons": {
+    "defaultMessage": "滑鼠鍵"
+  },
+  "ui.keybinding-modal.group-navigation": {
+    "defaultMessage": "導覽鍵"
+  },
+  "ui.keybinding-modal.group-punctuation": {
+    "defaultMessage": "符號鍵"
+  },
+  "ui.keybinding-modal.group-wheel": {
+    "defaultMessage": "滾輪"
+  },
+  "ui.keybinding-modal.issue-conflict": {
+    "defaultMessage": "已被「{label}」使用。"
+  },
+  "ui.keybinding-modal.issue-needs-modifier": {
+    "defaultMessage": "請同時按住 Ctrl/Cmd、Alt 或 Shift，或改選功能鍵、導覽鍵。"
+  },
+  "ui.keybinding-modal.issue-reserved": {
+    "defaultMessage": "「{label}」由啟動器保留。"
+  },
+  "ui.keybinding-modal.listening-hint": {
+    "defaultMessage": "請按下你想使用的按鍵。"
+  },
+  "ui.keybinding-modal.listening-title": {
+    "defaultMessage": "正在監聽…"
+  },
+  "ui.keybinding-modal.mismatch": {
+    "defaultMessage": "按鍵組合不一致，已重新開始錄製。"
+  },
+  "ui.keybinding-modal.mod": {
+    "defaultMessage": "Ctrl/Cmd"
+  },
+  "ui.keybinding-modal.modifiers": {
+    "defaultMessage": "修飾鍵"
+  },
+  "ui.keybinding-modal.mouse-back": {
+    "defaultMessage": "返回鍵"
+  },
+  "ui.keybinding-modal.mouse-forward": {
+    "defaultMessage": "前進鍵"
+  },
+  "ui.keybinding-modal.mouse-left": {
+    "defaultMessage": "滑鼠左鍵"
+  },
+  "ui.keybinding-modal.mouse-middle": {
+    "defaultMessage": "滑鼠中鍵"
+  },
+  "ui.keybinding-modal.mouse-right": {
+    "defaultMessage": "滑鼠右鍵"
+  },
+  "ui.keybinding-modal.nothing-captured": {
+    "defaultMessage": "沒有錄製到按鍵。"
+  },
+  "ui.keybinding-modal.restore-default": {
+    "defaultMessage": "還原預設"
+  },
+  "ui.keybinding-modal.save": {
+    "defaultMessage": "儲存"
+  },
+  "ui.keybinding-modal.shift": {
+    "defaultMessage": "Shift"
+  },
+  "ui.keybinding-modal.special-hint": {
+    "defaultMessage": "滑鼠鍵、滾輪以及與它們組合的按鍵只能在這裡選擇。"
+  },
+  "ui.keybinding-modal.title": {
+    "defaultMessage": "設定快速鍵"
+  },
+  "ui.keybinding-modal.title-for": {
+    "defaultMessage": "設定「{action}」的快速鍵"
+  },
+  "ui.keybinding-modal.tree-label": {
+    "defaultMessage": "快速鍵可用的輸入"
+  },
+  "ui.keybinding-modal.unset": {
+    "defaultMessage": "未設定"
+  },
+  "ui.keybinding-modal.use-capture": {
+    "defaultMessage": "改用按鍵錄製"
+  },
+  "ui.keybinding-modal.use-special": {
+    "defaultMessage": "改用其他方式選擇輸入"
+  },
+  "ui.keybinding-modal.verified-hint": {
+    "defaultMessage": "已確認，儲存後生效。"
+  },
+  "ui.keybinding-modal.verified-title": {
+    "defaultMessage": "已確認"
+  },
+  "ui.keybinding-modal.verifying-hint": {
+    "defaultMessage": "用於確認組合是否被正確錄製。"
+  },
+  "ui.keybinding-modal.verifying-title": {
+    "defaultMessage": "請再按一次以確認"
+  },
+  "ui.keybinding-modal.wheel-down": {
+    "defaultMessage": "滾輪向下"
+  },
+  "ui.keybinding-modal.wheel-up": {
+    "defaultMessage": "滾輪向上"
+  },
+  "ui.scroll-to-top.tooltip": {
+    "defaultMessage": "捲動至頂部"
+  },
+  "version.summary.view-version": {
+    "defaultMessage": "檢視版本"
+  },
+  "version.uploaded-by": {
+    "defaultMessage": "上傳者"
+  },
+  "drop.confirm.minecraft-root.add": {
+    "defaultMessage": "是，直接新增"
+  },
+  "drop.confirm.minecraft-root.import": {
+    "defaultMessage": "否，匯入其中的實例"
+  },
+  "drop.confirm.minecraft-root.prompt": {
+    "defaultMessage": "看起來這是一個 .minecraft 資料夾，是否要直接將它加入啟動器？"
+  },
+  "drop.confirm.minecraft-root.title": {
+    "defaultMessage": "新增 .minecraft 資料夾"
+  },
+  "drop.instance-import.title": {
+    "defaultMessage": "匯入實例"
+  },
+  "files.editor.editor-unavailable-placeholder": {
+    "defaultMessage": "程式碼編輯器無法使用"
+  },
+  "files.layout.no-matches": {
+    "defaultMessage": "此檢視中沒有相符的檔案"
+  },
+  "files.select-view": {
+    "defaultMessage": "選取此檢視中的全部檔案"
+  },
+  "image-crop.animated-preview": {
+    "defaultMessage": "動畫結果預覽"
+  },
+  "image-crop.apply": {
+    "defaultMessage": "使用圖片"
+  },
+  "image-crop.aspect-ratio": {
+    "defaultMessage": "寬高比"
+  },
+  "image-crop.auto-compress": {
+    "defaultMessage": "自動壓縮"
+  },
+  "image-crop.decode-error": {
+    "defaultMessage": "無法開啟這張圖片，請改選其他圖片。"
+  },
+  "image-crop.dimensions": {
+    "defaultMessage": "{width} × {height} 像素"
+  },
+  "image-crop.drag-hint": {
+    "defaultMessage": "拖曳圖片以調整位置。"
+  },
+  "image-crop.export-error": {
+    "defaultMessage": "無法產生裁切後的圖片，請重試。"
+  },
+  "image-crop.help": {
+    "defaultMessage": "拖曳圖片以調整位置。在工作區上捲動或使用縮放控制項來縮放。"
+  },
+  "image-crop.keep-original": {
+    "defaultMessage": "保留原圖"
+  },
+  "image-crop.loading": {
+    "defaultMessage": "正在載入圖片…"
+  },
+  "image-crop.oversized-bytes": {
+    "defaultMessage": "來源檔案為 {size} MB，一般上限為 {limit} MB。繼續可能會佔用大量記憶體。"
+  },
+  "image-crop.oversized-keep-original-hint": {
+    "defaultMessage": "保留原圖會保留原始解析度與影格率，動畫可能佔用更多記憶體與 CPU。"
+  },
+  "image-crop.oversized-pixels": {
+    "defaultMessage": "圖片尺寸為 {width} × {height} 像素，一般上限為 {limit} 百萬像素。繼續可能會佔用大量記憶體。"
+  },
+  "image-crop.oversized-title": {
+    "defaultMessage": "此檔案超過一般上限"
+  },
+  "image-crop.preview": {
+    "defaultMessage": "結果預覽"
+  },
+  "image-crop.preview-label": {
+    "defaultMessage": "裁切結果預覽：{width} × {height} 像素"
+  },
+  "image-crop.title": {
+    "defaultMessage": "裁切圖片"
+  },
+  "image-crop.too-large": {
+    "defaultMessage": "圖片尺寸過大，無法裁切。"
+  },
+  "image-crop.workspace": {
+    "defaultMessage": "裁切工作區"
+  },
+  "image-crop.zoom": {
+    "defaultMessage": "縮放"
+  },
+  "image-crop.zoom-status": {
+    "defaultMessage": "縮放 {percent}%，{width} × {height} 像素"
+  },
+  "image-viewer.close": {
+    "defaultMessage": "關閉"
+  },
+  "image-viewer.edit": {
+    "defaultMessage": "編輯"
+  },
+  "image-viewer.editor.colour": {
+    "defaultMessage": "顏色"
+  },
+  "image-viewer.editor.crop.dimensions": {
+    "defaultMessage": "{width} × {height} 像素"
+  },
+  "image-viewer.editor.crop.reset": {
+    "defaultMessage": "重設裁切"
+  },
+  "image-viewer.editor.delete-selection": {
+    "defaultMessage": "刪除選取的標註"
+  },
+  "image-viewer.editor.eraser.area": {
+    "defaultMessage": "區域"
+  },
+  "image-viewer.editor.eraser.element": {
+    "defaultMessage": "元素"
+  },
+  "image-viewer.editor.eraser.mode": {
+    "defaultMessage": "橡皮擦模式"
+  },
+  "image-viewer.editor.image-editing-tools": {
+    "defaultMessage": "圖片編輯工具"
+  },
+  "image-viewer.editor.more-save-options": {
+    "defaultMessage": "更多儲存選項"
+  },
+  "image-viewer.editor.overwrite": {
+    "defaultMessage": "覆蓋"
+  },
+  "image-viewer.editor.redo": {
+    "defaultMessage": "重做"
+  },
+  "image-viewer.editor.save-as-new": {
+    "defaultMessage": "儲存副本"
+  },
+  "image-viewer.editor.save-image": {
+    "defaultMessage": "儲存圖片"
+  },
+  "image-viewer.editor.size": {
+    "defaultMessage": "大小"
+  },
+  "image-viewer.editor.tool.arrow": {
+    "defaultMessage": "箭頭"
+  },
+  "image-viewer.editor.tool.censor": {
+    "defaultMessage": "遮蔽"
+  },
+  "image-viewer.editor.tool.crop": {
+    "defaultMessage": "裁切"
+  },
+  "image-viewer.editor.tool.ellipse": {
+    "defaultMessage": "橢圓"
+  },
+  "image-viewer.editor.tool.eraser": {
+    "defaultMessage": "橡皮擦"
+  },
+  "image-viewer.editor.tool.highlight": {
+    "defaultMessage": "螢光筆"
+  },
+  "image-viewer.editor.tool.pen": {
+    "defaultMessage": "畫筆"
   }
 }
